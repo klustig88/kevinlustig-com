@@ -3,9 +3,9 @@ $(document).ready(function () {
   $('#tab1').show();
   $('.tabs li a').click(function() {
     $('.tab').hide();
-    $('.tabs li').removeClass( 'active' )
-    $(this).parent().addClass('active')
-    $($(this).attr("href")).show();
+    $('.tabs li').removeClass( 'active');
+    $(this).parent().addClass('active');
+    $($(this).attr("href")).fadeIn();
   });
  
 });
