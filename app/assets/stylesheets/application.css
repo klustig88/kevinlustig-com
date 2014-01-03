@@ -44,24 +44,25 @@
 
 }
 
-#tabs {
-width: 1000px;
-
-
-  
+.tabs {
+    float: left;
+    padding-left: 320px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    list-style: none;
 }
-
-
-#tabs li{
-    display:inline-block;
-    padding:10px 25px;
-    background:#aaa;
-    border:1px solid #777;
-    border-bottom:none;
-    border-radius:4px 4px 0 0;
-    margin-right:3px;
-    color:#fff;
-    text-decoration:none;
-    text-align: center;
+.tabs li {
+    float: left;
+    padding: 10px 20px 15px;
+    height: 30px;
+    line-height: 30px;
+   
 }
+.tabs li a {
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
 
