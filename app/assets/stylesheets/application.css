@@ -1,3 +1,42 @@
+#full_container {
+  height: 900px;
+}
+
+#front_page {
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+}
+
+#github {
+  margin-bottom: 20px;
+  padding: 0, 10, 0, 10;
+}
+
+#linkedin {
+  margin-bottom: 20px;
+  padding: 0, 10, 0, 10;
+}
+
+
+#header_block {
+  text-align: center;
+}
+
+
+#header_icon ul{
+  float: center;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none; 
+  display: block;
+  height: 40px;
+}
+
+#header_icon li{
+  float: left;
+  padding-right: 10px;
+}
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
