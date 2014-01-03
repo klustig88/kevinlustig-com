@@ -1,26 +1,27 @@
-#full_container {
+.full_container {
   height: 900px;
 }
 
-#front_page {
+.front_page {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
 }
 
 
-#header_block {
+.header_block {
   text-align: center;
 }
 
-#linkedin {
+.linkedin {
+  padding-bottom: 20px;
+  color: blue;
+}
+
+.github {
   padding-bottom: 20px;
 }
 
-#github {
-  padding-bottom: 20px;
-}
 
-
-#header_icon ul{
+.header_icon ul{
   float: center;
   padding: 0;
   list-style: none; 
@@ -33,22 +34,34 @@
 
 }
 
-#header_icon li{
+.header_icon li{
   float: left;
   padding-right: 10px;
 }
 
+.tab_bar {
+  text-align: center;
 
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
- */
+}
+
+#tabs {
+width: 1000px;
+
+
+  
+}
+
+
+#tabs li{
+    display:inline-block;
+    padding:10px 25px;
+    background:#aaa;
+    border:1px solid #777;
+    border-bottom:none;
+    border-radius:4px 4px 0 0;
+    margin-right:3px;
+    color:#fff;
+    text-decoration:none;
+    text-align: center;
+}
+
