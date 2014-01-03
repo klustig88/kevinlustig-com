@@ -3,26 +3,30 @@
 
       <div id='header_info'>
         <div id='header_block'>
-          <h2>Kevin Lustig</h2>
-          <h4>A Web Enthusiasts turned Web Developer</h4>
+          <h1>Kevin Lustig</h1>
+          <h3>A Web Enthusiasts turned Web Developer</h3>
         </div>
        
         <div id='header_icon'> 
-          <ul>  
-            <li id='linkedin'>
-              <a href="www.linkedin.com/pub/kevin-lustig/39/370/436/">
-                <p>LinkedIn</p>
-              </a>
-            </li>
-
-            <li id='github'>
-              <a href="https://github.com/klustig88">
-                <p>GitHub</p>
+          <ul>
+            <li>
+              <a href="https://twitter.com/klustig88" class="twitter-follow-button" data-show-count="false">
+                <span>@klustig88</span>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/klustig88" class="twitter-follow-button" data-show-count="false">Follow @klustig88</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              <%= mail_to "kevin.lustig88@gmail.com" do %>
+               <span>kevin.lustig88@gmail.com</span>
+              <% end %>
+            </li> 
+             <li id='linkedin'>
+              <a href="www.linkedin.com/pub/kevin-lustig/39/370/436/">
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li id='github'>
+              <a href="https://github.com/klustig88">
+                <span>GitHub</span>
               </a>
             </li>
           </ul>

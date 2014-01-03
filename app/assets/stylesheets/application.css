@@ -6,29 +6,31 @@
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
 }
 
-#github {
-  margin-bottom: 20px;
-  padding: 0, 10, 0, 10;
-}
-
-#linkedin {
-  margin-bottom: 20px;
-  padding: 0, 10, 0, 10;
-}
-
 
 #header_block {
   text-align: center;
 }
 
+#linkedin {
+  padding-bottom: 20px;
+}
+
+#github {
+  padding-bottom: 20px;
+}
+
 
 #header_icon ul{
   float: center;
-  margin: 0 0 3em 0;
   padding: 0;
   list-style: none; 
   display: block;
   height: 40px;
+  width: 38%;
+  margin: auto;
+  color: blue;
+  font-size: 15px;
+
 }
 
 #header_icon li{
