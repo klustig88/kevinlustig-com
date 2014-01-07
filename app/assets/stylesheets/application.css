@@ -36,7 +36,12 @@
 
 .header_icon li{
   float: left;
-  padding-right: 10px;
+  padding-left: 15px;
+}
+
+.header_block {
+  text-align: center;
+  padding-left: 15px;
 }
 
 .tab {
@@ -61,12 +66,19 @@
 
 }
 .tabs li {
-    padding: 10px 20px 15px;
+    padding: 15px 20px 15px;
     height: 30px;
     line-height: 30px;
     display: inline-block;
+    position: relative;
    
 }
+
+.tabs li:first-child{
+  padding-left: 0px;
+}
+
+
 .tabs li a {
     color: #666;
     font-family: Helvetica, Arial, sans-serif;
