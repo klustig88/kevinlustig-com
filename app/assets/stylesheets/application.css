@@ -1,6 +1,7 @@
 .exper_img {
   display: inline-block;
   width: 80%;
+  float: left;
 }
 
 
