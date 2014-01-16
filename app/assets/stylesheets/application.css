@@ -1,49 +1,12 @@
-
-
-.exper_texts img{
-  float: left;
+.bmo {
+ display: inline-block;
 }
 
-.exper_texts img:first-child{
-  padding: 15px;
-  position: absolute; 
-  left: 0; 
-  bottom: 0; 
+.dbc, .bmo, .vanguard {
+  width: 290px;
+  margin-right: 0px;
 }
 
-
-.exper_texts h4{]
-  position: relative;
-  top: 18px;
-  left: 10px;
-  position: absolute; 
-  right: 0; 
-  bottom: 0; 
-}
-
-
-.exper_img {
-/*  display: inline-block;
-  width: 80%;
-  float: left;*/
-  width: 100%;
-  margin: 0 auto;
-}
-
-.exper_img div{
-  width: 600px;
-}
-
-
-.exper_texts {
-  float: left;
-  display: inline-block;
-  list-style: none;
-}
-
-.full_container {
-
-}
 
 .front_page {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
@@ -94,15 +57,13 @@
 }
 
 
+
+
 #tab2 {
-  float: left;
+
 
 }
 
-#tab2 h2{
-  float: right;
-  margin-right: 250px;
-}
 
 .tab_bar {
   text-align: center;
@@ -121,6 +82,7 @@
     border-top: 1px solid #ccc;
     width: 100%;
     list-style: none;
+    position: relative;
 
 
 }
@@ -137,7 +99,6 @@
   padding-left: 0px;
 }
 
-
 .tabs li a {
     color: #666;
     font-family: Helvetica, Arial, sans-serif;
@@ -145,11 +106,14 @@
     font-size: 20px;
   }
 
-  #tab2 {
+#tab2 {
+    text-align: center;
+    width: 900px;
     margin: 0;
-    display: block;
+    display: inline-block;
   }
 
-
-
+.vangurd img {
+ text-align: center;
+}
 
