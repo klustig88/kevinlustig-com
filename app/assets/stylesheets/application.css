@@ -2,9 +2,18 @@
  display: inline-block;
 }
 
+
 .dbc, .bmo, .vanguard {
   width: 290px;
   margin-right: 0px;
+}
+
+h4 {
+  padding-right: 40px;
+}
+
+.dbc span {
+  float: right;
 }
 
 
@@ -113,7 +122,11 @@
     display: inline-block;
   }
 
-.vangurd img {
+.vanguard img {
  text-align: center;
+}
+
+.vanguard_logo {
+  padding-right: 100px;
 }
 
