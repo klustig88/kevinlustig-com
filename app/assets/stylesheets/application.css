@@ -2,14 +2,26 @@
  display: inline-block;
 }
 
+.client {
+  padding-left: 150px;
+}
+
 
 .dbc, .bmo, .vanguard {
   width: 290px;
   margin-right: 0px;
 }
 
+.duration {
+  float: right;
+}
+
 h4 {
-  padding-right: 40px;
+  padding-right: 50px;
+}
+
+.dbc img {
+  padding-top: 10px;
 }
 
 .dbc span {
@@ -59,19 +71,16 @@ h4 {
   padding-left: 15px;
 }
 
+.titles {
+  margin-left: 190px;
+}
+
 .tab {
   width: 500px;
   text-align: center;
   margin: auto;
 }
 
-
-
-
-#tab2 {
-
-
-}
 
 
 .tab_bar {
