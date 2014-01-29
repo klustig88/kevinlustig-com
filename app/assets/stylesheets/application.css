@@ -73,19 +73,30 @@ h4 {
 
 .projects {
   list-style: none;
-  width: 100%;
+  width: 97%;
   margin: 0px;
   padding-left: 0px;
 }
 
 .projects li {
   display: inline-block;
-  padding-left: 50px;
+  padding-left: 40px;
 
 }
 
 .projects li img {
   border:1px solid #021a40;
+}
+
+.skills {
+  width: 900px;
+  margin: auto;
+}
+
+.skills li{
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 10px;
 }
 
 .titles {
@@ -149,6 +160,12 @@ h4 {
   }
 
 #tab3 {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+#tab4 {
   margin: 0px;
   width: 100%;
   text-align: center;
